@@ -74,13 +74,12 @@
         <mesh filename="package://bumperbot_description/meshes/caster_rear_link.STL"/>
       </geometry>
     </visual>
-  </link>
+  </link>                                                                                                                                                                                                                               
 
   <joint name = "caster_rear_joint" type ="fixed">
     <parent link="base_link"/>
     <child link = "caster_rear_link"/>
     <origin rpy = "0 0 0 " xyz = "-0.04755 0 0.0275"/>
   </joint>
-
 
 </robot>
